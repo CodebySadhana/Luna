@@ -1,0 +1,6 @@
+{
+  "before_stage": "log stage start",
+  "after_stage": "store stage output for reuse",
+  "after_workflow": "persist memory patch and handoff package",
+  "on_review": "repeat hook and draft stages if the review flags a gap"
+}

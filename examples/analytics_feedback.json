@@ -1,0 +1,14 @@
+{
+  "campaign": "luna-launch-01",
+  "platform": "instagram",
+  "period": "2026-07-01 to 2026-07-14",
+  "best_signal": "hooks that named a specific bottleneck earned the most saves",
+  "weak_signal": "abstract brand claims got comments but not saves",
+  "metrics": {
+    "views": 12800,
+    "saves": 610,
+    "comments": 89,
+    "ctr": 0.048,
+    "completion_rate": 0.62
+  }
+}

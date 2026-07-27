@@ -1,0 +1,81 @@
+{
+  "name": "content_lifecycle",
+  "description": "Goal intake -> research -> audience synthesis -> trends -> positioning -> hooks -> draft -> review -> revise -> visual direction -> SEO -> distribution -> handoff -> analytics -> memory update.",
+  "stages": [
+    {
+      "id": "goal_intake",
+      "specialist": "goal_intake",
+      "purpose": "normalize the brief"
+    },
+    {
+      "id": "research",
+      "specialist": "research",
+      "purpose": "map evidence and unknowns"
+    },
+    {
+      "id": "audience_synthesis",
+      "specialist": "audience_synthesis",
+      "purpose": "translate the audience into usable language"
+    },
+    {
+      "id": "trends",
+      "specialist": "trends",
+      "purpose": "capture adjacent trend intelligence"
+    },
+    {
+      "id": "positioning",
+      "specialist": "positioning",
+      "purpose": "define the promise and category"
+    },
+    {
+      "id": "hook_generation",
+      "specialist": "hook_generation",
+      "purpose": "create multiple hook angles"
+    },
+    {
+      "id": "draft_generation",
+      "specialist": "draft_generation",
+      "purpose": "outline the content draft"
+    },
+    {
+      "id": "review_loop",
+      "specialist": "review_loop",
+      "purpose": "decide whether the draft needs revision"
+    },
+    {
+      "id": "revise",
+      "specialist": "revise",
+      "purpose": "apply a narrow revision pass"
+    },
+    {
+      "id": "visual_direction",
+      "specialist": "visual_direction",
+      "purpose": "shape the visual guidance"
+    },
+    {
+      "id": "seo_metadata",
+      "specialist": "seo_metadata",
+      "purpose": "write discoverability metadata"
+    },
+    {
+      "id": "distribution_plan",
+      "specialist": "distribution_plan",
+      "purpose": "map channels and repurposing"
+    },
+    {
+      "id": "publication_handoff",
+      "specialist": "publication_handoff",
+      "purpose": "package the final deliverable"
+    },
+    {
+      "id": "analytics_review",
+      "specialist": "analytics_review",
+      "purpose": "interpret performance feedback"
+    },
+    {
+      "id": "memory_update",
+      "specialist": "memory_update",
+      "purpose": "persist durable strategy memory"
+    }
+  ]
+}

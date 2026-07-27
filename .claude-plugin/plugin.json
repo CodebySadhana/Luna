@@ -1,0 +1,27 @@
+{
+  "name": "luna",
+  "version": "0.1.0",
+  "description": "Luna is the editorial intelligence layer for content strategy.",
+  "author": {
+    "name": "OpenAI"
+  },
+  "skills": "./skills",
+  "hooks": "./integrations/hooks/luna-hooks.json",
+  "interface": {
+    "displayName": "Luna",
+    "shortDescription": "Chief Content Strategist mode",
+    "longDescription": "Orchestrate content strategy with research, hooks, scripts, SEO, distribution, analytics, and memory.",
+    "developerName": "OpenAI",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions",
+      "Lifecycle hooks"
+    ],
+    "defaultPrompt": [
+      "Use Luna as the Chief Content Strategist.",
+      "Route this brief through the content lifecycle.",
+      "Return a premium editorial strategy packet."
+    ],
+    "brandColor": "#111111"
+  }
+}

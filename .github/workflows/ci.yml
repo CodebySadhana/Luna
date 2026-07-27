@@ -1,0 +1,23 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install package
+        run: pip install -e .
+      - name: Lint
+        run: python scripts/lint.py
+      - name: Test
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Smoke test
+        run: python scripts/smoke_test.py
