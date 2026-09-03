@@ -8,7 +8,7 @@
       "name": "luna",
       "source": {
         "source": "url",
-        "url": "https://example.com/luna.git",
+        "url": "https://github.com/CodebySadhana/Luna.git",
         "ref": "main"
       },
       "policy": {
