@@ -1,21 +1,17 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "luna",
-  "interface": {
-    "displayName": "Luna"
+  "description": "An AI marketing team that thinks before it creates. Don't create more. Make more matter.",
+  "owner": {
+    "name": "CodebySadhana",
+    "url": "https://github.com/CodebySadhana"
   },
   "plugins": [
     {
       "name": "luna",
-      "source": {
-        "source": "url",
-        "url": "https://example.com/luna.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Productivity"
+      "description": "Marketing intelligence mode. Observes attention, kills weak ideas, engineers hooks, learns from results.",
+      "source": "./",
+      "category": "productivity"
     }
   ]
 }

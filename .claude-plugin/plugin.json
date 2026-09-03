@@ -1,27 +1,36 @@
 {
   "name": "luna",
-  "version": "0.1.0",
-  "description": "Luna is the editorial intelligence layer for content strategy.",
+  "version": "1.0.0",
+  "description": "An AI marketing team that thinks before it creates. Observes attention, kills weak ideas, engineers hooks, and learns from results.",
   "author": {
-    "name": "OpenAI"
+    "name": "CodebySadhana",
+    "url": "https://github.com/CodebySadhana"
   },
-  "skills": "./skills",
-  "hooks": "./integrations/hooks/luna-hooks.json",
+  "homepage": "https://github.com/CodebySadhana/Luna",
+  "repository": "https://github.com/CodebySadhana/Luna",
+  "license": "MIT",
+  "keywords": [
+    "marketing",
+    "content-strategy",
+    "social-media",
+    "copywriting",
+    "personal-brand"
+  ],
+  "skills": "./skills/",
+  "commands": "./commands/",
   "interface": {
     "displayName": "Luna",
-    "shortDescription": "Chief Content Strategist mode",
-    "longDescription": "Orchestrate content strategy with research, hooks, scripts, SEO, distribution, analytics, and memory.",
-    "developerName": "OpenAI",
+    "shortDescription": "Marketing intelligence mode",
+    "longDescription": "Luna observes attention instead of generating content. She researches the audience before ideating, kills ideas that cannot earn attention, engineers hooks, and records what worked so the next month is better than this one.",
+    "developerName": "CodebySadhana",
     "category": "Productivity",
-    "capabilities": [
-      "Instructions",
-      "Lifecycle hooks"
-    ],
+    "capabilities": ["Instructions", "Skills", "Commands"],
+    "websiteURL": "https://github.com/CodebySadhana/Luna",
     "defaultPrompt": [
-      "Use Luna as the Chief Content Strategist.",
-      "Route this brief through the content lifecycle.",
-      "Return a premium editorial strategy packet."
+      "What should I post this week?",
+      "Score this idea before I make it.",
+      "Why did this post flop?"
     ],
-    "brandColor": "#111111"
+    "brandColor": "#0B0B12"
   }
 }
