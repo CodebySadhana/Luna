@@ -406,18 +406,6 @@ Content made because it is Tuesday.
 
 ---
 
-## Luna is not Ponytail
-
-Luna's architecture is [ponytail](https://github.com/DietrichGebert/ponytail)'s
-— skills as the source of truth, thin generated adapters, an opinionated
-ladder, a persistent mode. The philosophy is inverted.
-
-| | Ponytail | Luna |
-|---|---|---|
-| Asks | Can we build this with less code? | Does this deserve anyone's attention? |
-| Enemy | Unnecessary code | Unnecessary content |
-| Optimizes | Engineering effort | Attention, relevance, distribution, learning |
-| Creed | Lazy, not negligent | **Ruthless, not reckless** |
 
 ---
 
